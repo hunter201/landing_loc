@@ -1,0 +1,49 @@
+form {
+    padding: 2rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(67, 166, 196);
+    border-radius: 1rem;
+    label {
+        color: $text_col_4;
+        font-size: 1.3rem;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 0.5rem;
+    }
+    input {
+        border: 2px solid rgb(72, 158, 64);
+        border-radius: 5px;
+        font-size: 1.8rem;
+        width: 70%;
+        height: 3rem;
+        margin: 1rem 0;
+        padding: 0.2rem;
+        &:invalid {
+            border: 2px solid rgb(197, 107, 107);;
+        }
+        &:active, &:focus {
+            outline: none;
+        }
+    }
+    button {
+        width: 40%;
+        height: 4rem;
+        color: rgb(206, 201, 201);
+        font-size: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        background-color: rgb(67, 166, 196); 
+        margin: 1rem 0;
+        &:hover {
+            background-color:rgb(39, 123, 148);
+            box-shadow: 0 0rem 1.5rem rgb(129, 239, 247);
+            
+            transition: 0.3s;
+        }
+    }
+}

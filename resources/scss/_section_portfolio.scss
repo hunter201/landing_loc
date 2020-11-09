@@ -1,0 +1,34 @@
+section {
+    h2.section_portfolio_header {
+        font-family: "Playfair-Bold", serif;
+        font-size: 6rem;
+        color: $text_col_4;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 5rem;
+    }
+
+    .dropdown {
+        margin-bottom: 7rem;
+        
+        a#dropdownMenuLink {
+            font-family: "Ubuntu-Light", sans-serif;
+            border: 1px solid $text_col_3;
+            color: $text_col_4;
+            height: 6rem;
+            width: 24rem;
+            font-size: 3rem;
+            &::after {
+                transform: scale(1.5,1.5);
+            }
+            &:hover {
+                background-color: #454545;
+                box-shadow: 0 0 1rem #000;
+                border-radius: 1rem;
+                
+            }
+            
+        }
+    }
+}

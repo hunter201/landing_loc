@@ -1,0 +1,52 @@
+section {
+    position: relative;
+    h2.section_services__header {
+        font-family: "Playfair-Bold", serif;
+        font-size: 6rem;
+        color: $text_col_4;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 6rem;
+    }
+    
+    h2.h2_web-design {
+        font-family: "Ubuntu-Light",sans-serif;
+        font-size: 5.5rem;
+        letter-spacing: 0.9px;
+        color: $text_col_1;
+        text-transform: uppercase;
+        border-top: 1px solid $text_col_1;
+        
+    }
+    ul.ul_web-design {
+        list-style-type: none;
+        margin: 0;
+        li {
+            font-family: "Ubuntu-Light",sans-serif;
+            font-size: 3rem;
+            color: $text_col_4;
+            text-transform: uppercase;
+            text-align: left;
+            margin-top: 7.5rem;
+        }
+        
+    }
+    p.section_services__main-text {
+        font-family: "Ubuntu-Light", sans-serif;
+        font-size: 1.95rem;
+        color: $text_col_4;
+        margin-top: 4rem;
+        text-align: justify;
+        a {
+            text-decoration: none;
+            color: $text_col_1;
+        }
+    }
+    
+    .section_services__photo {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+    }
+}

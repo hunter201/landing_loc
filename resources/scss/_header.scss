@@ -1,0 +1,103 @@
+//.header
+header {
+    height: auto;
+    
+    margin: 0 auto;
+    
+    //Стили для логотипа
+    .logo {
+        h1 {
+            line-height: 1;
+            display: inline-block;
+            font-family: "Playfair", serif;
+            font-size: 6rem;
+            color: $text_col_1;
+            margin: 0 auto;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+            border-top: 2px solid $text_col_1;
+        }
+    }
+
+    //Надпись под логотипом
+    .sub_logo {
+        h2 {
+            margin-left: 6rem;
+            line-height: 1;
+            display: inline-block;
+            font-family: "Ubuntu-Light", sans-serif;
+            font-size: 3rem;
+            color: $text_col_2;
+            text-transform: uppercase;
+        }
+    }
+
+    //Стили кнопки-бутерброда
+    a.burger_link {
+        display: block;
+        .burger {
+            padding: 2rem 1.5rem;
+            border-radius: 0.3rem;
+            width: 8rem;
+            height: 8rem;
+            background-color: transparent;
+            border: 1px solid $text_col_3;
+            &_stripe {
+                width: auto;
+                height: 0.2rem;
+                background-color: $text_col_2;
+            }
+        }
+    }
+    //Фоновая картинка хедера
+    .lamp {
+        position: absolute;
+        left: 50%;
+        top: 2rem;
+        width: 94.5rem;
+        height: 63rem;
+        transform: translateX(-25%);
+        z-index: 100;
+    }
+
+    //Текст-градиент
+    h2.header_text {
+        margin-top: 26.5rem;
+        font-family: "Ubuntu-Light", sans-serif;
+        font-size: 5.3rem;
+        background-image: linear-gradient(43deg, #303030 0%, #c5ac7d 50%, #303030 100%);
+        text-align: center;
+        text-transform: uppercase;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    //Нижний текст хедера
+    .scroll_down {
+        margin-top: 15rem;
+        h3 {
+            margin: 0;
+            font-family: "Ubuntu", sans-serif;
+            font-size: 2rem;
+            color: $text_col_3;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        .arrow_down {
+            display: inline-block;
+            
+            
+            width: 3.5rem;
+            height: 3.5rem;
+            border-bottom: 1px solid $text_col_3;
+            border-right: 1px solid $text_col_3;
+            transform: rotateZ(45deg);
+        }
+        i {
+            font-size: 3rem;
+            color: #fff;
+            text-align: center;
+        }
+    }
+}

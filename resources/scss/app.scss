@@ -1,0 +1,65 @@
+// Подключаем шрифты
+@import "fonts";
+
+// Цвета
+@import "colors";
+
+// Header
+@import "header";
+
+//Первая секция
+@import "section_services";
+
+// Вторая секция
+@import "section_portfolio";
+
+//форма рег-ции и авт-ции
+@import "form";
+
+// Footer
+@import "footer";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    height: auto;
+
+    background-color: rgb(155, 155, 248);
+}
+//Общиие стили контейнеров
+.container-lg {
+    max-width: 152rem;
+    height: auto;
+    background-color: $bgcolor;
+}
+//Стили контейнера секции 1(header)
+.container-lg.header {
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+}
+//Стили контейнера секции 2
+.container-lg.section_services {
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+    padding-left: 3rem;
+}
+//Стили контейнера секции 3
+.container-lg.section_portfolio {
+    padding-top: 10rem;
+}
+//стили для форм авторизации и регистрации
+.container-lg.form {
+    padding-top: 5rem;
+}
+//стили для подвала
+.container-lg.footer {
+    padding-top: 10rem;
+}
